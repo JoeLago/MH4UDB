@@ -1,0 +1,21 @@
+PODS:
+  - CWLSynthesizeSingleton (1.0.0)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - FMDBHelpers (0.0.7):
+    - FMDB (~> 2.3)
+
+DEPENDENCIES:
+  - CWLSynthesizeSingleton (~> 1.0)
+  - FMDB (~> 2.5)
+  - FMDBHelpers (~> 0.0)
+
+SPEC CHECKSUMS:
+  CWLSynthesizeSingleton: 6bf23e662713ad65ee7348ba9ef73e6e87a2626d
+  FMDB: 0efa188cf0dd1ce82c27a478cd5f5fa245308677
+  FMDBHelpers: 418755fc89a6a6f43140c103fddc0e0f4658b707
+
+COCOAPODS: 0.35.0
