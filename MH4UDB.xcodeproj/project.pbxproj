@@ -861,6 +861,7 @@
 		148829C31AB6C66C00A842BD /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148829C11AB6C66C00A842BD /* Crashlytics.framework */; };
 		148829C41AB6C66C00A842BD /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148829C21AB6C66C00A842BD /* Fabric.framework */; };
 		14993DED1AB508CD002FFE6B /* mh4uTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14993DEC1AB508CD002FFE6B /* mh4uTests.m */; };
+		14E6B9481ABB961D0005636F /* MHFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6B9471ABB961D0005636F /* MHFileManager.m */; };
 		AD69F4583BC793DD91F9A95D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F448CDDD3235577470A0F8C9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -1759,6 +1760,8 @@
 		14993DE61AB508CD002FFE6B /* MH4UDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MH4UDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14993DEB1AB508CD002FFE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14993DEC1AB508CD002FFE6B /* mh4uTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mh4uTests.m; sourceTree = "<group>"; };
+		14E6B9461ABB961D0005636F /* MHFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFileManager.h; sourceTree = "<group>"; };
+		14E6B9471ABB961D0005636F /* MHFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFileManager.m; sourceTree = "<group>"; };
 		D0D030B1CE2FEBA0193079B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F229A61BB9D4EA7F28EAC088 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F448CDDD3235577470A0F8C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2849,6 +2852,8 @@
 			children = (
 				14058A8C1ABA373C00C557A1 /* FMDatabase+MHFMDBAdditions.h */,
 				14058A8D1ABA373C00C557A1 /* FMDatabase+MHFMDBAdditions.m */,
+				14E6B9461ABB961D0005636F /* MHFileManager.h */,
+				14E6B9471ABB961D0005636F /* MHFileManager.m */,
 			);
 			name = Helpers;
 			path = ../MH4UDB/Classes;
@@ -4003,6 +4008,7 @@
 				14058E101ABA373C00C557A1 /* MHMonstersListViewController.m in Sources */,
 				14058E161ABA373C00C557A1 /* MHWeaponListViewController.m in Sources */,
 				14058E091ABA373C00C557A1 /* MHDecorationViewController.m in Sources */,
+				14E6B9481ABB961D0005636F /* MHFileManager.m in Sources */,
 				14058E141ABA373C00C557A1 /* MHSkillsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

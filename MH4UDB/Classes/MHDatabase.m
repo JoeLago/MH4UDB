@@ -23,6 +23,9 @@
 // 
 
 #import "MHDatabase.h"
+#import "MHFileManager.h"
+
+static NSString * const DATABASEFILENAME = @"mh4u.db";
 
 @implementation MHDatabase
 
@@ -30,7 +33,7 @@ CWL_SYNTHESIZE_SINGLETON_FOR_CLASS(MHDatabase);
 
 - (instancetype)init
 {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"mh4u" ofType:@"db"];
+    NSString *filePath = [MHFileManager copyFile:DATABASEFILENAME doOverwrite:FALSE];
     self = [super initWithPath:filePath];
     if (self) {
         if (![self open]) {
